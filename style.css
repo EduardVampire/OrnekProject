@@ -51,3 +51,35 @@ a:hover{
     padding: 5px;    
     border: 2px solid #ffffff;  
 }
+
+
+.nevidimNav{ 
+    background-color: rgb(211, 186, 119, 0); 
+    width: 50%; 
+    height: 550px; 
+    z-index: 100; 
+    position: absolute; 
+    right: 0; 
+    margin-top: 2%; 
+    display: none; 
+    position: fixed; 
+} 
+ 
+.inNevidimNav{ 
+    display: flex; 
+} 
+ 
+.inPan{     
+    padding-top: 4%; 
+    /* width: 15vw; */ 
+    /* height: 20vh; */ 
+} 
+ 
+.inNev{ 
+    width: 100%; 
+} 
+ 
+.inPan:hover{ 
+    width: 100%; 
+    z-index: 100; 
+}

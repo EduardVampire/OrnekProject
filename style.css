@@ -80,16 +80,12 @@ a:hover{
     align-items: center;
 }
 
-.subMain2{
-    margin-left: 15%;
-    
-}
 
 .oneh1{
-    font-size: 150px;
-    font-family: 'Fjalla One', sans-serif;
-    color: aliceblue;
-    margin-bottom: 0;
+  font-size: 150px;
+  font-family: 'Fjalla One', sans-serif;
+  color: aliceblue;
+  margin-bottom: 0;
 }
 
 .oneP{
@@ -105,6 +101,15 @@ a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     padding: 2%;
+}
+.butOrnek{
+  background-color: rgba(255, 255, 255, 0);
+  height: 20px;
+  width: 1000px;
+  color: rgba(255, 255, 255, 0);
+  border: rgba(0, 0, 0, 0) 1px solid;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .bigP1{
@@ -248,7 +253,302 @@ a:hover{
 
 
 /* ---------------------------------------------------------------------------------ADAPTION MAIN PAGE--------------------------------------------------- */
-
+/*Telefon*/
+@media screen and (max-width: 425px) {
+    .body1 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    nav {
+      width: 100%;
+      padding-left: 0;
+      height: 5%;
+      position: fixed;
+    }
+    .displaynone a {
+      font-size: 9px;
+      padding-left: 0;
+    }
+  
+    .navbetween {
+      width: 100%;
+      padding-left: 0;
+    }
+    .main2 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .butOrnek{
+      display: none;
+    }
+    .video_media {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 120%;
+      padding-bottom: 0;
+      height: 100%;
+      padding-left: 18%;
+      margin-top: 15%;
+    }
+  
+    .subMain2 {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .oneh1 {
+      font-size: 50px;
+      padding: 0;
+      padding-left: 18%;
+    }
+    .oneP {
+      display: flex;
+      flex-direction: column;
+      font-size: 30px;
+      width: 360px;
+      padding-left: 18%;
+    }
+  
+    .nevidimNav {
+      width: 300px;
+      padding: 0;
+      height: 250px;
+      z-index: 100;
+      position: absolute;
+      left: 0;
+      display: none;
+      position: fixed;
+      margin-top: 5%;
+    }
+  
+    .main3 {
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 25%;
+      padding-right: 25%;
+    }
+    .main3 .gr1 {
+      width: 100%;
+    }
+    .gr1 p {
+      width: 90%;
+    }
+    .newMain1 {
+      display: flex;
+      padding-left: 25%;
+      padding-right: 25%;
+      height: 100%;
+      padding-bottom: 3%;
+      align-items: center;
+    }
+    .mainH1 {
+      display: none;
+    }
+    .imgs567 {
+      flex-direction: column;
+      width: 390px;
+      height: 100%;
+    }
+    .ara img {
+      width: 100%;
+      height: 450px;
+    }
+    .main4 {
+      display: flex;
+      width: 45.9%;
+      height: 100%;
+      flex-direction: column;
+      padding-left: 104%;
+      position: relative;
+      padding-bottom: 50%;
+      align-items: center;
+    }
+  
+    .main4 img {
+      width: 100%;
+      height: 60%;
+    }
+  
+    .main4 p {
+      display: flex;
+      position: absolute;
+      width: 390px;
+      margin-top: 610px;
+      margin-right: 410px;
+    }
+    .subMain4 {
+      width: 100%;
+      height: 450px;
+    }
+  
+    .main-4-top {
+      padding-top: 5%;
+    }
+    .arr {
+      display: flex;
+      flex-direction: column;
+      width: 390px;
+      height: 100%;
+      padding-top: 100px;
+      padding-left: 25%;
+      padding-right: 25%;
+    }
+    .main2 img {
+      width: 100%;
+      height: 450px;
+    }
+    .main2 p {
+      width: 100%;
+      height: 450px;
+    }
+  }
+  
+  /*-------------------------------------------------------------------------------planshetter bastaldy index main-----------------------------------------------------*/
+  
+  @media screen and (max-width: 1024px) {
+    .body1 {
+      padding: 0;
+      margin: 0;
+    }
+    nav {
+      width: 100%;
+      height: 80px;
+    }
+    .main2 {
+      display: flex;
+      flex-direction: column;
+    }
+    .video_media {
+      height: 100%;
+    }
+  
+    .subMain2 {
+      margin-left: 15%;
+      padding-top: 15%;
+    }
+  
+    .oneh1 {
+      font-size: 150px;
+      width: 100%;
+    }
+    .oneP {
+      font-size: 22px;
+      width: 100%;
+    }
+  
+    .nevidimNav {
+      background-color: rgb(211, 186, 119, 0);
+      width: 25%;
+      height: 225px;
+      z-index: 100;
+      position: absolute;
+      right: 0;
+      margin-top: 2%;
+      display: none;
+      position: fixed;
+    }
+    .main3 {
+      justify-content: space-between;
+      display: flex;
+      flex-wrap: wrap;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      background-color: #643900;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 5%;
+    }
+  
+    .gr1 {
+      padding: 5%;
+      border-left: #ffffff 5px solid;
+    }
+  
+    .gr1 p {
+      width: 100%;
+    }
+    .newMain1 {
+      background-color: rgb(158, 85, 36);
+      width: 100%;
+      height: 100%;
+      margin-top: 5%;
+      display: flex;
+      justify-content: center;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .imgs567 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .img5 {
+      height: 80%;
+      width: 100%;
+      margin-top: 10%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .mainH1 {
+      display: none;
+    }
+  
+    .main4 {
+      display: flex;
+      height: 100%;
+      background-color: #492900;
+    }
+  
+    .mainPhoto2 {
+      right: 0;
+      height: 100%;
+    }
+  
+  
+    .myP2 {
+      font-size: 22px;
+      width: 500px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: white;
+    }
+  
+    .bigP12{
+      width: 100%;
+      font-size: 60px;
+    }
+  
+    .textUlttyk {
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .oneP1 {
+      font-size: 25px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: white;
+      width: 700px;
+      text-align: center;
+    }
+    .mainPhoto{
+      width: 100%;
+      height: 50%;
+    }
+  }
 
 
 
@@ -302,24 +602,49 @@ a:hover{
     margin-top: 0;
 }
 
-.sat{
-    display: flex;
+.oneJwP1{
+  width: 550px;
+  text-align: center;
+  color:#492900;
+  font-size: 23px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.satypAlu{
-    margin: 0 auto;
-    font-size: 18px;
-    width: 150px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    justify-content: center;
-    background: linear-gradient(90deg, #ffde7a,#ffba52,#ffa05c);
+.satuJew{
+  display: flex;
+  line-height: 0;
 }
 
+.satuJew button{
+  margin-top: 2%;
+  margin-left: 82%;
+  background-color: rgba(255, 255, 255, 0);
+  height: 4%;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0) 1px solid;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+.satuJew button:hover{
+  background-color: rgb(255, 187, 0);
+}
+.jwMain777{
+  margin-top: 4%;
+}
 
+.main2Jw{
+  display: flex;
+  align-items: center;
+}
 
-
-
+.Jwimgs567{
+  background-color: #925d3d;
+  width: 90%;
+  display: flex;   
+  justify-content: space-around;
+  padding: 5%;
+}
 
 
 /* ---------------------------------------------------------------------------------QYZDAR--------------------------------------------------- */
@@ -387,10 +712,9 @@ a:hover{
     position: absolute;
 }
 
-
-
-
-
+.subMain2{
+  margin-left: 15%;
+}
 
 .qyzdar1{
     background-color: rgb(255, 226, 209);
@@ -492,7 +816,9 @@ a:hover{
 
 
 /* ---------------------------------------------------------------------------------JIGITTER--------------------------------------------------- */
-
+.body2{
+  background-color:#ffc06d;
+}
 .mainZh{
     background-color:#b8741c;
 }
@@ -502,6 +828,7 @@ a:hover{
 }
 
 .ZhOrta{
+    margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -520,6 +847,7 @@ a:hover{
 }
 
 .zhigitter1{
+    margin-top: 5%;
     background-color:#ffc06d;
     height: 80vh;
     width: 100%;
@@ -533,8 +861,7 @@ a:hover{
     background-color:#b8741c;
     display: flex;
     align-items: center;
-    justify-content: right;
-    padding: 2%;
+    padding: 5%;
 }
 .zhigitter199{
     background-color:#ffc06d;
@@ -558,6 +885,17 @@ a:hover{
     font-size: 28px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
 }
+.video_media111{
+  padding: 2%;
+  height: 85vh;
+}
+.zhigitter11{
+  margin-top: 8%;
+  background-color:#ffc06d;
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 12%;
+}
 
 
 /* ---------------------------------------------------------------------------------BALALAR--------------------------------------------------- */
@@ -571,23 +909,60 @@ a:hover{
 }
 .balaDiv1{
     display: flex;
-    
-
 }
 .balaDiv1 img{
    width: 25%;
 }
-.zagBala{
-    background-color:#5f3907;
-    width: 25%;
-    font-size: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aliceblue;
-    margin-top: 15%;
-    z-index: 100;
-    position: absolute;
+
+.balaDiv2{
+  width: 100%;
+  background-color: #834a00;
+  display: flex;
+  justify-content: center;
+}
+.sozDiv2{
+  width: 100%;
+  text-align: center;
+  width: 900px;    
+  color: #ffffff;
+  font-size: 22px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.oneh12{
+  font-size: 100px;
+  font-family: 'Fjalla One', sans-serif;
+  color: aliceblue;
+  margin-bottom: 0;
+}
+
+.balalar1{
+  background-color:#ffd7a2;
+  height: 80vh;
+  width: 100%;
 }
 
 /* ---------------------------------------------------------------------------------OTBASY--------------------------------------------------- */
-
+.otbasy1{
+  width: 100%;
+  background-color: #f1a036;
+  display: flex;
+}
+.otbasy1 img{
+  width: 120%;
+}
+.oneOt{
+  font-size: 80px;
+  font-family: 'Fjalla One', sans-serif;
+  color: aliceblue;
+  margin-bottom: 0;
+  margin-top: 30%;
+}
+.Otimgs567{
+  background-color: #ffab77;
+  width: 90%;
+  display: flex;   
+  justify-content: space-around;
+  padding: 5%;
+}
 /* ---------------------------------------------------------------------------------REGISTRATION--------------------------------------------------- */

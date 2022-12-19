@@ -5,44 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:ital,wght@1,500&display=swap"
+          rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <title>Otbasy</title>
 
     <style>
-        .container{
+        .container {
             display: flex;
             justify-content: center;
             height: 1000px;
             align-items: center;
         }
-        .sub_container{
-            background-color:#be863d;
+
+        .sub_container {
+            background-color: #be863d;
             height: 500px;
             width: 800px;
             display: flex;
             flex-direction: column;
-            justify-content:  center;
+            justify-content: center;
         }
-        .picture{
+
+        .picture {
             display: flex;
             justify-content: space-around;
         }
-        .info_login, .info_button{
+
+        .info_login, .info_button {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-        #b1{
+
+        #b1 {
             margin-top: 10px;
             margin-bottom: 10px;
         }
-        #a1{
+
+        #a1 {
             color: white;
             text-decoration: none;
         }
-        input{
+
+        input {
             width: 200px;
             margin-top: 10px;
         }
@@ -51,107 +60,98 @@
 
 <body class="body2">
 
-    <nav>
-        <div class="navbetween">
-            <img class="logo" src="logo.jpg" href="index.html">
-            
-            <div class="displaynone">
-                <a class="navtext" href="index.html">Home</a>
-                <a id="slideDown" class="navtext" href="#">Shop</a>
-                <a class="navtext" href="Jewellery.html">Jewellery</a>
-                <a class="navtext" href="https://www.instagram.com/gaziza_ornek_almaty/">Instagram</a>
-                <a class="signIn" href="SignIn.html">Sign in</a>
-            </div>   
+<nav>
+    <div class="navbetween">
+        <img class="logo" src="logo.jpg" href="index.html">
 
+        <div class="displaynone">
+            <a class="navtext" href="index.html">Home</a>
+            <a id="slideDown" class="navtext" href="#">Shop</a>
+            <a class="navtext" href="Jewellery.html">Jewellery</a>
+            <a class="navtext" href="https://www.instagram.com/gaziza_ornek_almaty/">Instagram</a>
+            <a class="signIn" href="SignIn.html">Sign in</a>
         </div>
-    </nav>
 
-    <div id="panel" class="nevidimNav">
-    
-        <div class="inNevidimNav">
-
-            <div class="inPan">
-                <a class="inPan" href="Qyzdar.html"><img class="inNev" src="img3.jpg" alt=""></a>
-            </div>
-
-            <div class="inPan">
-                <a class="inPan" href="Zhigitter.html"><img class="inNev" src="img11.jpg" alt=""></a>
-            </div>
-
-        
-            <div class="inPan">
-                <a class="inPan" href="Balalar.html"><img class="inNev" src="img12.jpg" alt=""></a>
-            </div>
-
-            <div class="inPan">
-                <a class="inPan" href="Otbasy.html"><img class="inNev" src="img13.jpg" alt=""></a>
-            </div>
-        
-        </div>
     </div>
+</nav>
 
+<div id="panel" class="nevidimNav">
 
+    <div class="inNevidimNav">
 
-
-
-
-    <div class = "container">
-        <div class = "sub_container">
-            <div class ="picture">
-                <img src="signin.jpg" alt="" width="30%">
-            </div>
-            <div class = "info">
-                <form action="login.php" method="POST">
-                    <div class = "info_login">
-                        <input id="login" name="login" type="text" placeholder="Your login">
-                        
-                        <input id="password" name="password" type="password" placeholder="password">
-                    </div>
-                    <div class = "info_button">
-                        <button type="submit" id="b1">Login</button>
-                        <a id = "a1" href="./registration.html">Don't have an account?</a>
-                    </div>
-                </form>
-            </div>
+        <div class="inPan">
+            <a class="inPan" href="Qyzdar.html"><img class="inNev" src="img3.jpg" alt=""></a>
         </div>
+
+        <div class="inPan">
+            <a class="inPan" href="Zhigitter.html"><img class="inNev" src="img11.jpg" alt=""></a>
+        </div>
+
+
+        <div class="inPan">
+            <a class="inPan" href="Balalar.html"><img class="inNev" src="img12.jpg" alt=""></a>
+        </div>
+
+        <div class="inPan">
+            <a class="inPan" href="Otbasy.html"><img class="inNev" src="img13.jpg" alt=""></a>
+        </div>
+
     </div>
+</div>
 
 
+<div class="container">
+    <div class="sub_container">
+        <div class="picture">
+            <img src="signin.jpg" alt="" width="30%">
+        </div>
+        <div class="info">
+            <form action="login.php" method="POST">
+                <div class="info_login">
+                    <input id="login" name="login" type="text" placeholder="Your login">
 
-
-
-
-    
-    <div class="footer">
-        <div class="innerfooter">
-            <div style="display: flex; justify-content: space-between; width: 100%; flex-wrap: wrap;">
-                <div style="display: flex; flex-wrap: wrap;">
-                    <div>
-                        <div class="justtext">© 2022 — 2025<br>
-                            SDU «Suleyman Demirel Unviersity»<br>
-                            Barlyq quqyq qorǵalǵan
-                        </div>
-                    </div>
-                    <div>
-                        <div class="justtext">
-                            <div >Basty bet</div>
-                            <div>Bіz týraly</div>
-                            <div>FAQ</div>
-                            <div>Tapsyrys berý</div>
-                            <div>Syılyqqa kýpon</div>
-                        </div>
-                    </div>
+                    <input id="password" name="password" type="password" placeholder="password">
                 </div>
+                <div class="info_button">
+                    <button type="submit" id="b1">Login</button>
+                    <a id="a1" href="./registration.html">Don't have an account?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
+
+<div class="footer">
+    <div class="innerfooter">
+        <div style="display: flex; justify-content: space-between; width: 100%; flex-wrap: wrap;">
+            <div style="display: flex; flex-wrap: wrap;">
                 <div>
-                    <div class="justtext" style="font-size: 35px; font-weight:700">+7 771 992 57 08</div>
+                    <div class="justtext">© 2022 — 2025<br>
+                        SDU «Suleyman Demirel Unviersity»<br>
+                        Barlyq quqyq qorǵalǵan
+                    </div>
+                </div>
+                <div>
+                    <div class="justtext">
+                        <div>Basty bet</div>
+                        <div>Bіz týraly</div>
+                        <div>FAQ</div>
+                        <div>Tapsyrys berý</div>
+                        <div>Syılyqqa kýpon</div>
+                    </div>
                 </div>
             </div>
-            <hr style="width: 100%; height: 1px; color: lightgray">
-            <br><br>
-        </div>
-    </div>
 
-    <script src="scriptMain.js"></script>
+            <div>
+                <div class="justtext" style="font-size: 35px; font-weight:700">+7 771 992 57 08</div>
+            </div>
+        </div>
+        <hr style="width: 100%; height: 1px; color: lightgray">
+        <br><br>
+    </div>
+</div>
+
+<script src="scriptMain.js"></script>
 
 </body>

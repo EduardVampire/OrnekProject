@@ -1,3 +1,60 @@
+
+function task22(){
+    for(let i = 0; i < 5; i++){
+        document.getElementById("eded").src = "qz7.jpg"           
+    }
+}       
+function task22_1(){
+    for(let i = 0; i < 5; i++){
+        document.getElementById("eded").src = "img5.jpg"     
+    }
+}
+
+function task2(){
+    for(let i = 0; i < 5; i++){
+        document.getElementById("eded1").src = "qz2.jpg"           
+    }
+}    
+function task2_1(){
+    for(let i = 0; i < 5; i++){
+        document.getElementById("eded1").src = "img7.jpg"     
+    }
+}
+
+function task222(){
+    for(let i = 0; i < 5; i++){
+        document.getElementById("eded2").src = "qz8.jpg"           
+    }
+}
+function task222_1(){
+    for(let i = 0; i < 5; i++){
+        document.getElementById("eded2").src = "img6.jpg"     
+    }
+}
+
+function task2222(){
+    for(let i = 0; i < 5; i++){
+        document.getElementById("eded3").src = "qz6.jpg"           
+    }
+}
+function task2222_1(){
+    for(let i = 0; i < 5; i++){
+        document.getElementById("eded3").src = "img8.jpg"     
+    }
+}
+
+
+function task3(){
+    for(let i = 0; i < 5; i++){
+        document.getElementById("eded4").src = "jwMain.jpg"           
+    }
+}       
+function task3_1(){
+    for(let i = 0; i < 5; i++){
+        document.getElementById("eded4").src = "mainPhoto2.jpg"     
+    }
+}
+
 $(document).ready(function () {
     var ch = true;
     $("#slideDown").click(function () {

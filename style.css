@@ -970,3 +970,80 @@ a:hover {
 }
 
 /* ---------------------------------------------------------------------------------REGISTRATION--------------------------------------------------- */
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    align-items: center;
+}
+.sub_container{
+    background-color: #834a00;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+}
+.picture{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.info_login, .info_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+#b1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#a1{
+    color: white;
+    text-decoration: none;
+}
+input{
+    width: 200px;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    align-items: center;
+}
+.sub_container{
+    background-color: #aa4f04;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+}
+.picture{
+    display: flex;
+    justify-content: space-around;
+}
+.info_login, .info_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+#b1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#a1{
+    color: white;
+    text-decoration: none;
+}
+input{
+    width: 200px;
+    margin-top: 10px;
+}
